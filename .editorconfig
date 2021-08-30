@@ -1,14 +1,15 @@
 root = true
 
+[*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+
 [*.java]
 indent_style = space
 indent_size = 4
 end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
 ij_java_if_brace_force = always
 ij_java_while_brace_force = always
 ij_java_class_count_to_use_import_on_demand = 100
 ij_java_names_count_to_use_import_on_demand = 100
-
